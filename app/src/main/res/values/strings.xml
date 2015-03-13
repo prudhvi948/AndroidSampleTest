@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidProgrammerTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_splash">AppPartner</string>
+    <string name="action_main">AppPartner</string>
+    <string name="action_login">Login</string>
+    <string name="action_chat">Chat</string>
+    <string name="action_animation">Animation</string>
+    <string name="animation_button">Animation Test</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_animation">AnimationActivity</string>
+    <string name="title_activity_touch">TouchActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+</resources>

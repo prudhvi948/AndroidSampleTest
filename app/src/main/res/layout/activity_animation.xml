@@ -1,0 +1,50 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_animation"
+    android:id="@+id/relative_layout"
+    tools:context="com.apppartner.androidprogrammertest.AnimationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative_image">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/ic_apppartner"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative_buttons">
+
+        <ImageButton
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:id="@+id/fade"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/btn_fade"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:id="@+id/spin"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/fade"
+            android:layout_marginTop="@dimen/top_margin"
+            android:background="@drawable/btn_spin"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+

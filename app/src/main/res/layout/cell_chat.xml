@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Uncomment below tag for regular ImageView and
+    comment out the one below this -->
+    <!--<ImageView-->
+        <!--android:id="@+id/avatarImageView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"/>-->
+
+    <com.apppartner.androidprogrammertest.imagehelpers.CircularImageView
+        android:id="@+id/avatarImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/left_margin"/>
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/avatarImageView"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginRight="@dimen/right_margin"
+        android:layout_marginTop="@dimen/top_margin"
+        android:textSize="@dimen/chat_username"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/avatarImageView"
+        android:layout_below="@+id/usernameTextView"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginRight="@dimen/right_margin"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:textSize="@dimen/chat_message"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
